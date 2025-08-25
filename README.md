@@ -87,6 +87,3 @@ naver-blog-mobile-redirector/
 
 MIT License
 
-```
-
-

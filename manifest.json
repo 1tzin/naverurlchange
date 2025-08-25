@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Naver Blog Mobile Redirector",
+  "version": "1.0",
+  "description": "네이버 블로그 PC 버전을 자동으로 모바일 버전으로 리디렉션합니다.",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["*://blog.naver.com/*", "*://m.blog.naver.com/*"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

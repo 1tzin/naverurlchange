@@ -1,6 +1,6 @@
 # Naver Blog Mobile Redirector
 
-네이버 블로그 PC 버전을 자동으로 **모바일 버전(m.blog.naver.com)**으로 리디렉션하는 Chrome 확장 프로그램입니다.
+네이버 블로그 PC 버전을 자동으로 **모바일 버전(m.blog.naver.com)** 으로 리디렉션하는 Chrome 확장 프로그램입니다.
 
 ---
 
